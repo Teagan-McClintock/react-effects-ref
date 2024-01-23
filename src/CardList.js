@@ -1,3 +1,5 @@
+import Card from "./Card";
+
 /**Area for rendering cards.
  *
  * Props:
@@ -13,3 +15,5 @@ function CardList({ cards }) {
     {cards.map(card => <Card key={card.code} card={card} />)}
   </div>);
 }
+
+export default CardList;

@@ -10,6 +10,8 @@
 
 function Card({ card }) {
   return (<div className="Card">
-    <img src = {card.img} />
+    <img src = {card.image} />
   </div>)
 }
+
+export default Card;
